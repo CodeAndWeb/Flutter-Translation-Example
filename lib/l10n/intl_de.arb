@@ -1,0 +1,9 @@
+{
+  "@@last_modified": "2020-01-08T11:39:22.562134",
+  "pushCounterText": "Du hast den Button so oft gedrückt:",
+  "@pushCounterText": {
+    "description": "A description for the push counter",
+    "type": "text",
+    "placeholders": {}
+  }
+}
