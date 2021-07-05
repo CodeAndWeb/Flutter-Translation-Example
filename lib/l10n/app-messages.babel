@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<babeledit_project be_version="2.8.0" version="1.2">
+    <!--
+
+    BabelEdit project file
+    https://www.codeandweb.com/babeledit
+
+    This file contains meta data for all translations, but not the translation texts itself.
+    They are stored in framework-specific message files (.json / .vue / .yaml / .properties)
+
+    -->
+    <preset_collections/>
+    <framework>arb</framework>
+    <filename>app-messages.babel</filename>
+    <source_root_dir/>
+    <folder_node>
+        <name/>
+        <children>
+            <concept_node>
+                <name>appTitle</name>
+                <definition_loaded>false</definition_loaded>
+                <description/>
+                <comment>The app's title.</comment>
+                <default_text/>
+                <translations>
+                    <translation>
+                        <language>de-DE</language>
+                        <approved>true</approved>
+                    </translation>
+                    <translation>
+                        <language>en-US</language>
+                        <approved>true</approved>
+                    </translation>
+                </translations>
+            </concept_node>
+            <concept_node>
+                <name>pushCounterText</name>
+                <definition_loaded>false</definition_loaded>
+                <description/>
+                <comment>The text displayed above the counter label.</comment>
+                <default_text/>
+                <translations>
+                    <translation>
+                        <language>de-DE</language>
+                        <approved>true</approved>
+                    </translation>
+                    <translation>
+                        <language>en-US</language>
+                        <approved>true</approved>
+                    </translation>
+                </translations>
+            </concept_node>
+        </children>
+    </folder_node>
+    <isTemplateProject>false</isTemplateProject>
+    <languages>
+        <language>
+            <code>de-DE</code>
+            <source_id/>
+            <source_file>app_de.arb</source_file>
+        </language>
+        <language>
+            <code>en-US</code>
+            <source_id/>
+            <source_file>app_en.arb</source_file>
+        </language>
+    </languages>
+    <translation_files>
+        <translation_file>
+            <file>app_de.arb</file>
+        </translation_file>
+        <translation_file>
+            <file>app_en.arb</file>
+        </translation_file>
+    </translation_files>
+    <editor_configuration>
+        <save_empty_translations>true</save_empty_translations>
+        <copy_templates>
+            <copy_template>Localizations.of(context).%1</copy_template>
+            <copy_template/>
+            <copy_template/>
+        </copy_templates>
+    </editor_configuration>
+    <primary_language>en-US</primary_language>
+    <configuration>
+        <indent>tab</indent>
+        <format>plaintext-json</format>
+    </configuration>
+</babeledit_project>

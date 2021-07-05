@@ -1,9 +1,0 @@
-{
-  "@@last_modified": "2020-01-08T11:39:22.562134",
-  "pushCounterText": "You have pushed the button this many times:",
-  "@pushCounterText": {
-    "description": "A description for the push counter",
-    "type": "text",
-    "placeholders": {}
-  }
-}
